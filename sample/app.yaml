@@ -3,3 +3,7 @@ env: flex
 runtime: ruby
 env_variables:
   SECRET_KEY_BASE: 'xxxxxxxxxx'
+service: service_name
+manual_scaling:
+  instances: 1
+
